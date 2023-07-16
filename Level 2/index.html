@@ -1,0 +1,38 @@
+<!-- In level 2, we added several enhancements to our basic website. -->
+<!-- We added a navigation bar in our header to link to different sections of our webpage. -->
+<!-- We added more content to our main section, and divided the content into different sections. -->
+<!-- We also added a script tag to link to our JavaScript file, which provides interactivity to our webpage. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Level 2 Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Level 2 Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is the content for section 1.</p>
+        </section>
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is the content for section 2. It's currently hidden, but you can reveal it by clicking the button below.</p>
+            <button onclick="toggleVisibility('section2-content')">Show/Hide Content</button>
+            <p id="section2-content" style="display: none;">Here's some hidden content that will be shown when you click the button!</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 My Level 2 Website</p>
+    </footer>
+</body>
+</html>
