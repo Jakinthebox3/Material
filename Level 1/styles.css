@@ -1,0 +1,15 @@
+/* This is a basic CSS file. */
+/* We style our webpage by changing the font, colors, and layouts of our HTML elements. */
+/* For example, we're changing the font of our body element, and changing the colors and padding of our header and footer. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
