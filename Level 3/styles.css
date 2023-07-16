@@ -1,0 +1,67 @@
+/* In level 3, we added more CSS styles to enhance our webpage even further. */
+/* We added styles for our images to make them responsive to the size of the viewport. */
+/* We added styles for our form to better organize our input fields. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    margin: 20px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main form {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    header, main, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
